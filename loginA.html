@@ -15,10 +15,10 @@ session_start();
 <body>
     
     <div class="container">
-        <form method="post">
+        <form method="post" action="WelcomeA.html">
             
             <label class="required">EMAIL</label>
-            <input type="text" name="email" placeholder="Enter Email"><br/>
+            <input type="text" name="email" placeholder="Enter Email" required><br/>
     
             <label  class="required">PASSWORD</label>
             <input type="password"  id="myInput" placeholder="Enter Password" required><br><br>
@@ -35,7 +35,7 @@ session_start();
 
             </script>
             
-            <a href="WelcomeA.html"  ><input type="button" value="LOGIN"></a><br>
+            <input type="submit" value="LOGIN"><br>
             <a href="forgetpasswordA.html">Forget password?</a>
             <a href="SignupA.html">Signup?</a> <br><br>
         </form>

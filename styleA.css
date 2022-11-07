@@ -26,7 +26,7 @@ input[type=text],input[type=password]{
     border:2px solid #ccc;
 }
 
-input[type=button]{
+input[type=submit]{
     background:yellowgreen;
     color:white;
     border:none;
@@ -37,7 +37,7 @@ input[type=button]{
     text-align:center;
     width:100%;
 }
-.button{
+.submit{
     padding:10px;
     width:100px;
     color:white;
