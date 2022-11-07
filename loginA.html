@@ -1,0 +1,44 @@
+
+<?php
+session_start();
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="styleA.css"/>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <form method="post">
+            
+            <label class="required">EMAIL</label>
+            <input type="text" name="email" placeholder="Enter Email"><br/>
+    
+            <label  class="required">PASSWORD</label>
+            <input type="password"  id="myInput" placeholder="Enter Password" required><br><br>
+            <input type="checkbox" onclick="myFunction()">Show Password
+            <script>
+                function myFunction() {
+                var x = document.getElementById("myInput");
+                if (x.type === "password") {
+                x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+
+            </script>
+            
+            <a href="WelcomeA.html"  ><input type="button" value="LOGIN"></a><br>
+            <a href="forgetpasswordA.html">Forget password?</a>
+            <a href="SignupA.html">Signup?</a> <br><br>
+        </form>
+    </div>
+</body>
+</html>

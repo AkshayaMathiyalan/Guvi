@@ -1,0 +1,58 @@
+body{
+    margin:300;
+    padding:350;
+    margin-top: 20;
+    margin-bottom: 30;
+    background: url(studentlogin3.png);
+    background-size: cover;
+
+}
+.container{
+    background:white;
+    width:500px;
+    height:300px;
+    padding:15px;
+    margin:auto;
+    margin-top:150px;
+    opacity:0.8; 
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37); 
+}
+input[type=text],input[type=password]{
+    width:100%;
+    padding:12px 20px;
+    box-sizing:border-box;
+    margin:8px 0;
+    outline:none;
+    border:2px solid #ccc;
+}
+
+input[type=button]{
+    background:yellowgreen;
+    color:white;
+    border:none;
+    padding:15px;
+    font-family:veranda;
+    font-size:lem;
+    margin:8px 0;
+    text-align:center;
+    width:100%;
+}
+.button{
+    padding:10px;
+    width:100px;
+    color:white;
+    background-color:lightblue;
+    border:none;
+    
+}
+.forget
+{
+    padding:12px 18px;
+}
+.required:after {
+    content:"*";
+    color: red;
+ }
+a{
+    text-align:center;
+}
